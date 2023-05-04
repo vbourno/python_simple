@@ -1,16 +1,17 @@
 class AbstractStudentDAO:
     """Defines the Student DAO API"""
+    
     def insert(self):
         raise NotImplementedError()
     
     def update(self):
-        raise NotImplementedError
+        raise NotImplementedError()
     
     def delete(self):
-        raise NotImplementedError
+        raise NotImplementedError()
     
     def getOne(self):
-        raise NotImplementedError
+        raise NotImplementedError()
     
 class StudentImpl(AbstractStudentDAO):
     def insert(self):
